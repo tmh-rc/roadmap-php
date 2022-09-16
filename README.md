@@ -4,7 +4,13 @@
 
 ### Environment setup
 
-- [xxx]()
+- [PHP]()
+- [MySQL]()
+- [Web Server (Apache, Nginx, IIS)]()
+- [Code Editor]()
+    - [PHP Storm]()
+    - [Visual Studio Code]()
+    - [Sublime Text]()
 
 ### Syntax And Output
 
@@ -60,8 +66,63 @@
 ### Functions
 
 - [User Defined Functions]()
-- [Array Functions]()
-- [Built-in Functions]()
+    - [Functions]()
+    - [Parameters]()
+    - [Return]()
+    - [Default Parameters]()
+    - [Type declarations]()
+    - [Dynamic Function Calls]()
+    - [Arrow Function (PHP 7.4)]()
+    - [Lambda]()
+    - [Closure]()
+
+- [Essential Built-in Functions]()
+    - [String Functions]()
+        - [strlen]()
+        - [str_replace]()
+        - [substr]()
+        - [trim]()
+        - [rtim]()
+        - [ltrim]()
+        - [strtolower]()
+        - [strtoupper]()
+        - [ucwords]()
+        - [ucfirst]()
+    - [Array Functions]()
+        - [print_r]()
+        - [count]()
+        - [in_array]()
+        - [max]()
+        - [min]()
+        - [sort]()
+        - [rsort]()
+        - [array_reverse]()
+        - [array_sum]()
+        - [array_values]()
+        - [array_keys]()
+        - [explode]()
+        - [implode]()
+        - [array_push]()
+        - [array_slice]()
+        - [array_splice]()
+        - [array_chunk]()
+        - [array_map]()
+        - [array_filter]()
+        - [array_reduce]()
+    - [Other Functions]()
+        - [is_bool]()
+        - [is_int]()
+        - [is_string]()
+        - [is_array]()
+        - [isset]()
+        - [empty]()
+        - [unset]()
+        - [die]()
+        - [exit]()
+        - [var_dump]()
+        - [file_exists]()
+        - [file_get_contents]()
+
 
 ### Gloabal Variables
 
@@ -73,6 +134,20 @@
 - [$_COOKIE]()
 - [$_ENV]()
 
+### Error Handling
+
+- [Try]()
+- [Catch]()
+- [Throw]()
+
+### File Handling
+
+- [include]()
+- [include_once]()
+- [require]()
+- [require_once]()
+- [File read, write, delete]()
+
 ### Database (MySQL)
 
 - Databse
@@ -82,10 +157,28 @@
     - UPDATE
     - DELETE
     - SELECT
-    - Condition (where, where in, where between)
-    - Soring (acs, desc)
-    - Join (left, right, inner)
-    - WIP
+    - Condition
+        - WHERE (=, >, <, <>, LIKE, IN, BETWEEN)
+    - Operator (AND, OR, NOT)
+    - NULL (IS NULL, IS NOT NULL)
+    - Soring (ASC, DESC)
+    - LIMIT
+    - Functions 
+        - COUNT
+        - SUM
+        - AVG
+        - MIN
+        - MAX
+    - JOIN
+        - LEFT JOIN
+        - RIGHT JOIN
+        - INNERT JOIN
+        - UNION JOIN
+        - SELF JOIN
+    - Aliases
+    - EXISTS
+    - GROUP BY
+    - HAVING
 
 ### BLog Project
 
@@ -122,6 +215,9 @@
 
 - [Namespace]()
 - [Autoload]()
+    - [Classmap]()
+    - [PSR-4]()
+    - [File Autoload]()
 
 ### Tools
 
